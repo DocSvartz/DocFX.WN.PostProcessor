@@ -5,7 +5,7 @@ using System.Composition;
 using System.Text.RegularExpressions;
 
 // 1. The class must implement the IPostProcessor interface.
-[Export(nameof(WhatsNew), typeof(IPostProcessor))]
+//[Export(nameof(WhatsNew), typeof(IPostProcessor))]
 public class WhatsNew : IPostProcessor
 {
       
